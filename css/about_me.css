@@ -1,0 +1,26 @@
+body{
+    background-color: midnightblue;
+}
+.container{
+    text-align: center;
+    color: white;
+}
+
+.container h1{
+    font-size: 70px;
+    font-family: 'Montserrat', sans-serif;
+}
+@media screen and (max-width:536px)
+{
+    .container h1{
+        font-size: 40px;
+    }
+
+    .container h2{
+        font-size: 25px;
+    }
+
+    .container p{
+        font-size: 20px;
+    }
+}

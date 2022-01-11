@@ -1,0 +1,43 @@
+
+* {box-sizing: border-box;}
+
+body { 
+  margin: 0;
+
+  font-family: 'Merriweather', serif;
+}
+
+h1{
+    font-family: 'Great Vibes', cursive;
+    font-size: 30px;
+}
+h2,h3,label{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+}
+p{
+    font-size: 30px;
+}
+
+.nav-bar{
+    background-color: goldenrod;
+  padding: 20px 10px;
+}
+.nav-bar a{
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    color:black;
+    font-size: 18px; 
+    line-height: 25px;
+    border-radius: 10px;
+}
+.nav-bar a:hover{
+    background-color: gold;
+    color: white;
+}
+@media screen and (max-width:546px) {
+    .nav-bar a{
+        display: block;
+    }
+}
